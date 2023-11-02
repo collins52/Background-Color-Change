@@ -1,0 +1,27 @@
+#myDiv {
+    padding: 10% 10% 10% 10%;
+    text-align: center;
+    overflow: hidden;
+    background: rgb(173, 216, 230);
+    transition: 2s;
+    word-wrap: break-word;
+  }
+  
+  #btn {
+    padding: 2%;
+    border-radius: 20px;
+    border: none;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+  }
+  
+  /* Add a media query to adjust #myDiv when the viewport is smaller than 249px by 343px */
+  @media screen and (max-width: 249px) and (max-height: 343px) {
+    #myDiv {
+      padding: 5% 5% 5% 5%; /* Adjust padding to make it smaller */
+    }
+  }
+  
